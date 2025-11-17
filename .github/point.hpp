@@ -46,4 +46,5 @@ std::ostream& operator<<(std::ostream& os, const Point<U>& p)
     return os;
 }
 
-#endif
+#endif 
+
