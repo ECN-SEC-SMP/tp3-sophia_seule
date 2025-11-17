@@ -30,7 +30,6 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const Forme<U>& f);
 };
 
-
 // Définition de l’opérateur <<
 template <typename U>
 std::ostream& operator<<(std::ostream& os, const Forme<U>& f)
