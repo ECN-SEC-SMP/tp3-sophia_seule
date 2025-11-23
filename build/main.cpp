@@ -27,7 +27,8 @@ int main()
 
     return 0;
 
-    /*TEST CARRE
+    /*
+    question 3 - carree - test
     Point<double> c(1.0, 1.0);
     Carre<double> s(c, 4.0);
 
@@ -37,4 +38,13 @@ int main()
     std::cout << "Après modification : " << s << std::endl;
 
     return 0;*/
+
+    /* 
+    question 4 - specialisation - test
+    Point<std::string> p("Bonjour", "Nantes");
+    std::cout << p << std::endl;
+
+    p.translater("ignored", "ignored");
+    std::cout << p << std::endl; */
+
 }
