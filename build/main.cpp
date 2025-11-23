@@ -47,4 +47,38 @@ int main()
     p.translater("ignored", "ignored");
     std::cout << p << std::endl; */
 
+    /* 
+    question 5 - liste de formes - test
+    #include <iostream>
+    #include "listeFormes.hpp"
+
+    int main()
+    {
+        ListeFormes<double> lf;
+
+        // création de formes
+        Point<double> c1(0, 0);
+        Point<double> c2(5, 5);
+
+        lf.ajouter(new Rectangle<double>(c1, 4.0, 2.0));
+        lf.ajouter(new Carre<double>(c2, 3.0));
+
+        // affichage
+        std::cout << lf << std::endl;
+
+        // surface totale
+        std::cout << "Surface totale = " << lf.surfaceTotale() << std::endl;
+
+        // boîte englobante
+        Rectangle<double> box = lf.boiteEnglobante();
+        std::cout << "Boite englobante : " << box << std::endl;
+
+        // nettoyage (le plus simple)
+        for (size_t i = 0; i < lf.taille(); i++)
+            delete lf.get(i);
+
+        return 0;
+    }  */
+
+
 }
