@@ -1,5 +1,6 @@
 #include <iostream>
 #include "point.hpp"
+#include "carre.hpp"
 
 int main()
 {
@@ -25,4 +26,15 @@ int main()
               << ", y=" << p2.getY() << std::endl;
 
     return 0;
+
+    /*TEST CARRE
+    Point<double> c(1.0, 1.0);
+    Carre<double> s(c, 4.0);
+
+    std::cout << s << std::endl;
+
+    s.setCote(10.0);
+    std::cout << "Après modification : " << s << std::endl;
+
+    return 0;*/
 }
